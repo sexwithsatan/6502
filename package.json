@@ -1,0 +1,15 @@
+{
+  "name": "@esnes/6502",
+  "version": "0.1.0",
+  "module": "6502.js",
+  "devDependencies": {
+    "eslint": "^6.1.0",
+    "rollup": "^0.64.0"
+  },
+  "scripts": {
+    "build": "rollup -c",
+    "dev": "rollup -c -w",
+    "test": "eslint src/**",
+    "pretest": "npm run build"
+  }
+}
